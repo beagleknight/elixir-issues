@@ -1,0 +1,5 @@
+app:
+  image: ultrayoshi/elixir
+  working_dir: /code
+  volumes:
+    - .:/code
