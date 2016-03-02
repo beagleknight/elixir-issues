@@ -1,7 +1,5 @@
 app:
-  image: ultrayoshi/elixir
-  working_dir: /code
-  entrypoint: ["elixir", "--erl", "-smp disable", "/usr/local/bin/mix"]
+  build: .
   volumes:
     - .:/code
     - .hex:/root/.hex
