@@ -1,5 +1,5 @@
 app:
-  build: .
+  image: ultrayoshi/elixir
   volumes:
     - .:/code
     - .hex:/root/.hex
